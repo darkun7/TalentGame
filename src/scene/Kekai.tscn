@@ -1,0 +1,334 @@
+[gd_scene load_steps=63 format=2]
+
+[ext_resource path="res://assets/Kekai/kekai_box.png" type="Texture" id=1]
+[ext_resource path="res://src/scripts/KekaiGame.gd" type="Script" id=2]
+[ext_resource path="res://assets/Kekai/1.png" type="Texture" id=3]
+[ext_resource path="res://assets/Kekai/2.png" type="Texture" id=4]
+[ext_resource path="res://assets/Kekai/6.png" type="Texture" id=5]
+[ext_resource path="res://assets/Kekai/3.png" type="Texture" id=6]
+[ext_resource path="res://assets/Kekai/4.png" type="Texture" id=7]
+[ext_resource path="res://assets/Kekai/5.png" type="Texture" id=8]
+[ext_resource path="res://assets/Kekai/submit_disabled.png" type="Texture" id=9]
+[ext_resource path="res://assets/Kekai/submit.png" type="Texture" id=10]
+[ext_resource path="res://assets/Kekai/remove.png" type="Texture" id=11]
+[ext_resource path="res://assets/ARLRDBD_0.TTF" type="DynamicFontData" id=12]
+[ext_resource path="res://assets/Kekai/side.png" type="Texture" id=13]
+[ext_resource path="res://assets/border.png" type="Texture" id=14]
+[ext_resource path="res://assets/bg_plain.png" type="Texture" id=15]
+[ext_resource path="res://assets/sprites/Pass/27.png" type="Texture" id=16]
+[ext_resource path="res://assets/sprites/Pass/14.png" type="Texture" id=17]
+[ext_resource path="res://assets/sprites/Pass/19.png" type="Texture" id=18]
+[ext_resource path="res://assets/sprites/Pass/24.png" type="Texture" id=19]
+[ext_resource path="res://assets/sprites/Pass/15.png" type="Texture" id=20]
+[ext_resource path="res://assets/sprites/Pass/22.png" type="Texture" id=21]
+[ext_resource path="res://assets/sprites/Pass/34.png" type="Texture" id=22]
+[ext_resource path="res://assets/sprites/Pass/10.png" type="Texture" id=23]
+[ext_resource path="res://assets/sprites/Pass/20.png" type="Texture" id=24]
+[ext_resource path="res://assets/sprites/Pass/13.png" type="Texture" id=25]
+[ext_resource path="res://assets/sprites/Pass/23.png" type="Texture" id=26]
+[ext_resource path="res://assets/sprites/Pass/2.png" type="Texture" id=27]
+[ext_resource path="res://assets/sprites/Pass/16.png" type="Texture" id=28]
+[ext_resource path="res://assets/sprites/Pass/21.png" type="Texture" id=29]
+[ext_resource path="res://assets/sprites/Pass/11.png" type="Texture" id=30]
+[ext_resource path="res://assets/sprites/Pass/3.png" type="Texture" id=31]
+[ext_resource path="res://assets/sprites/Pass/1.png" type="Texture" id=32]
+[ext_resource path="res://assets/sprites/Pass/6.png" type="Texture" id=33]
+[ext_resource path="res://assets/sprites/Pass/25.png" type="Texture" id=34]
+[ext_resource path="res://assets/sprites/Pass/5.png" type="Texture" id=35]
+[ext_resource path="res://assets/sprites/Pass/4.png" type="Texture" id=36]
+[ext_resource path="res://assets/sprites/Pass/9.png" type="Texture" id=37]
+[ext_resource path="res://assets/sprites/Pass/26.png" type="Texture" id=38]
+[ext_resource path="res://assets/sprites/Pass/17.png" type="Texture" id=39]
+[ext_resource path="res://assets/sprites/Pass/7.png" type="Texture" id=40]
+[ext_resource path="res://assets/sprites/Pass/28.png" type="Texture" id=41]
+[ext_resource path="res://assets/sprites/Pass/8.png" type="Texture" id=42]
+[ext_resource path="res://assets/sprites/Pass/29.png" type="Texture" id=43]
+[ext_resource path="res://assets/sprites/Pass/30.png" type="Texture" id=44]
+[ext_resource path="res://assets/sprites/Pass/12.png" type="Texture" id=45]
+[ext_resource path="res://assets/sprites/Pass/36.png" type="Texture" id=46]
+[ext_resource path="res://assets/sprites/Pass/37.png" type="Texture" id=47]
+[ext_resource path="res://assets/sprites/Pass/38.png" type="Texture" id=48]
+[ext_resource path="res://assets/sprites/Pass/39.png" type="Texture" id=49]
+[ext_resource path="res://assets/sprites/Pass/40.png" type="Texture" id=50]
+[ext_resource path="res://assets/sprites/Pass/18.png" type="Texture" id=51]
+[ext_resource path="res://assets/sprites/Pass/32.png" type="Texture" id=52]
+[ext_resource path="res://assets/sprites/Pass/33.png" type="Texture" id=53]
+[ext_resource path="res://assets/sprites/Pass/31.png" type="Texture" id=54]
+[ext_resource path="res://assets/sprites/Pass/41.png" type="Texture" id=55]
+[ext_resource path="res://assets/sprites/Pass/35.png" type="Texture" id=56]
+[ext_resource path="res://assets/sprites/Pass/42.png" type="Texture" id=57]
+[ext_resource path="res://assets/button.png" type="Texture" id=58]
+[ext_resource path="res://assets/back.png" type="Texture" id=59]
+[ext_resource path="res://assets/bg_blur.png" type="Texture" id=60]
+
+[sub_resource type="DynamicFont" id=4]
+size = 26
+outline_size = 3
+font_data = ExtResource( 12 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 32 ), ExtResource( 27 ), ExtResource( 31 ), ExtResource( 36 ), ExtResource( 35 ), ExtResource( 33 ), ExtResource( 40 ), ExtResource( 42 ), ExtResource( 37 ), ExtResource( 23 ), ExtResource( 30 ), ExtResource( 45 ), ExtResource( 25 ), ExtResource( 17 ), ExtResource( 20 ), ExtResource( 28 ), ExtResource( 39 ), ExtResource( 51 ), ExtResource( 18 ), ExtResource( 24 ), ExtResource( 29 ), ExtResource( 21 ), ExtResource( 26 ), ExtResource( 19 ), ExtResource( 34 ), ExtResource( 38 ), ExtResource( 16 ), ExtResource( 41 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 54 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 22 ), ExtResource( 56 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 55 ), ExtResource( 57 ) ],
+"loop": false,
+"name": "default",
+"speed": 16.0
+} ]
+
+[node name="Kekai" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bg_full" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 60 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bg_scroll" type="TextureRect" parent="."]
+margin_left = 42.0
+margin_top = 43.0
+margin_right = 532.0
+margin_bottom = 414.0
+texture = ExtResource( 15 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="border_l" type="TextureRect" parent="bg_scroll"]
+margin_left = -28.0
+margin_top = -21.0
+margin_right = 25.0
+margin_bottom = 381.0
+texture = ExtResource( 14 )
+expand = true
+
+[node name="border_r" type="TextureRect" parent="bg_scroll"]
+margin_left = 469.0
+margin_top = -21.0
+margin_right = 522.0
+margin_bottom = 381.0
+texture = ExtResource( 14 )
+expand = true
+
+[node name="bg_side" type="TextureRect" parent="."]
+margin_left = 574.11
+margin_top = 39.3568
+margin_right = 1004.11
+margin_bottom = 588.357
+texture = ExtResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 1.88782
+margin_right = 1.88782
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="VBoxContainer" parent="HBoxContainer"]
+margin_bottom = 600.0
+
+[node name="view" type="VBoxContainer" parent="HBoxContainer"]
+margin_left = 4.0
+margin_right = 4.0
+margin_bottom = 600.0
+
+[node name="box" type="TextureRect" parent="."]
+margin_left = 13.2973
+margin_top = 438.665
+margin_right = 558.297
+margin_bottom = 581.665
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="box"]
+margin_left = 18.7937
+margin_top = 49.4441
+margin_right = 524.794
+margin_bottom = 126.444
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="seal_1" type="TextureButton" parent="box/HBoxContainer"]
+margin_right = 81.0
+margin_bottom = 77.0
+texture_normal = ExtResource( 3 )
+stretch_mode = 4
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="seal_2" type="TextureButton" parent="box/HBoxContainer"]
+margin_left = 85.0
+margin_right = 166.0
+margin_bottom = 77.0
+texture_normal = ExtResource( 4 )
+stretch_mode = 3
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="seal_3" type="TextureButton" parent="box/HBoxContainer"]
+margin_left = 170.0
+margin_right = 251.0
+margin_bottom = 77.0
+texture_normal = ExtResource( 6 )
+stretch_mode = 3
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="seal_4" type="TextureButton" parent="box/HBoxContainer"]
+margin_left = 255.0
+margin_right = 336.0
+margin_bottom = 77.0
+texture_normal = ExtResource( 7 )
+stretch_mode = 3
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="seal_5" type="TextureButton" parent="box/HBoxContainer"]
+margin_left = 340.0
+margin_right = 421.0
+margin_bottom = 77.0
+texture_normal = ExtResource( 8 )
+stretch_mode = 3
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="seal_6" type="TextureButton" parent="box/HBoxContainer"]
+margin_left = 425.0
+margin_right = 506.0
+margin_bottom = 77.0
+texture_normal = ExtResource( 5 )
+stretch_mode = 3
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="submit" type="TextureButton" parent="box"]
+anchor_left = 0.5
+anchor_top = -1.796
+anchor_right = 0.5
+anchor_bottom = -1.796
+margin_left = -64.1086
+margin_top = -66.4435
+margin_right = 72.8914
+margin_bottom = 66.5565
+disabled = true
+texture_normal = ExtResource( 10 )
+texture_disabled = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="clear" type="TextureButton" parent="box"]
+margin_left = 456.654
+margin_top = -73.3242
+margin_right = 502.654
+margin_bottom = -27.3242
+texture_normal = ExtResource( 11 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="box"]
+margin_left = 18.0
+margin_top = 27.0
+margin_right = 393.0
+margin_bottom = 41.0
+text = "Unseal the kekai by arrange the rune"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input_box" type="HBoxContainer" parent="."]
+margin_left = 78.5998
+margin_top = 253.378
+margin_right = 456.6
+margin_bottom = 363.378
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="history" type="VBoxContainer" parent="."]
+margin_left = 644.0
+margin_top = 101.0
+margin_right = 942.0
+margin_bottom = 493.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="result" type="TextureButton" parent="."]
+visible = false
+margin_left = 184.0
+margin_top = 322.0
+margin_right = 384.0
+margin_bottom = 384.0
+texture_normal = ExtResource( 58 )
+expand = true
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="result"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+text = "FAILED"
+align = 1
+valign = 1
+
+[node name="animated_pass" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 288.463, 163.114 )
+scale = Vector2( 0.470279, 0.470279 )
+frames = SubResource( 3 )
+frame = 1
+
+[node name="btn_back" type="TextureButton" parent="."]
+margin_left = 950.853
+margin_top = 11.1118
+margin_right = 1011.85
+margin_bottom = 71.1118
+texture_normal = ExtResource( 59 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="box/submit" to="." method="_on_submit_seal"]
+[connection signal="pressed" from="box/clear" to="." method="_on_clear_seal"]
+[connection signal="pressed" from="result" to="." method="_on_Result_pressed"]
+[connection signal="animation_finished" from="animated_pass" to="." method="_on_pass_animation_finished"]
+[connection signal="pressed" from="btn_back" to="." method="_on_Result_pressed"]
